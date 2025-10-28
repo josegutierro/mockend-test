@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-content2 text-foreground;
+  min-height: 100vh;
+}
+
+main {
+  @apply px-6 py-10 lg:px-12;
+}
